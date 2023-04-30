@@ -56,14 +56,14 @@ layout = html.Div([
             dbc.Col(dbc.Card(children=[html.H3(children='Go to the code',
                                                className="text-center"),
                                        dbc.Button("Github Data",
-                                                  href="https://github.com/Abhinav-damle/dataset.git",
+                                                  href="https://github.com/Abhinav-damle/DV-CA2",
                                                   color="primary",
                                                   className="mt-3"),
                                        ],
                              body=True, color="dark", outline=True)
                     , width=6, className="mb-4"),
 
-            dbc.Col(dbc.Card(children=[html.H3(children='Access the link for the dataset',
+            dbc.Col(dbc.Card(children=[html.H3(children='Access  the dataset',
                                                className="text-center"),
                                        dbc.Button("Gihub",
                                                   href="https://github.com/Abhinav-damle/dataset.git",
@@ -79,7 +79,7 @@ layout = html.Div([
             style={'height':'30%', 'width':'100%'}))
         ]),
         html.A("Anime for lifeee",
-               href="https://www.imdb.com/list/ls058654847/?st_dt=&mode=detail&page=5&sort=list_order,asc")
+               href="https://www.imdb.com/list/ls058654847/?st_dt=&mode=detail&page=1&sort=list_order,asc")
 
     ])
 
